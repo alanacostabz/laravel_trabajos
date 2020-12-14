@@ -1,0 +1,82 @@
+VARIABLES DE ENTORNO
+Son variables de entorno que varían del entorno en el que se encuentre nuestra
+aplaicación.
+
+Los dos entornos mas comunes de una apliación web son:
+
+- Entorno de desarrollo:
+  O tambien entorno local se refiere a cuando estamos desarrollando la aplicación en
+  nuestra máquina local, es decir nuestra aplicación está en nuestro computadora
+
+- Entorno de producción
+  Se refiere a cuando nuestra aplicación ya se encuentra en un servidor público y es 
+  accesible de forma global.
+
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
+MIGRACIONES
+Son como un control de versión de la base de datos, permite crear y modificar facilmente las tablas de nuestras bases de datos.
+Permite reocnstruir y destruir el esquema de la base de datos.
+
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
+ORM: ELOQUENT OBJECT-RELATIONAL MAPPING - MAPEO OBJECTO-RELACIONAL
+Se trata de convertir o mapear datos de la base de datos a objeto (en nuestro caso clases PHP) y viceversa mapear clases objetos a datos en la base de datos
+
+LARAVEL TRAE SU PROPIO ORM LLAMADO ELOQUENT
+
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
+CARBON 
+es una librería para tratar fechas en PHP
+
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
+ROUTE MODEL BINDING
+https://webtraining.zone/foro/laravel/que-es-el-route-model-binding-en-laravel
+
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
+ASIGNACIÓN MASIVA
+son los atributos que se pueden asignar masivamente
+
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
+FORM REQUEST VALIDATION
+pensados para validar formularios complejos
+clases dedicadas para encapsular la lógica de validación y autorización de uno o varios formularios
+- se crea usan el comando php artisan make:request CreateProjectRequest por ejemplo, por defecto se guaran en la carpeta app/http/requests
+
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
+SESIÓN
+Es un tipo de almacenamiento temporal donde guardamos la información del usuario que está usando la aplicación
+
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+ 
+ ACTUALIZACIÓN
+ el comando make:auth fue extraído a otro paquete y ya no existe, para obtener el mismo resultado de lo que se enseña en esta lección se deben ejecutar los siguientes comandos:
+ 1. composer require laravel/ui
+ 2. php artisan ui vue --auth
+ 3. npm install
+ 4. npm run dev
+
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
+MIDDLEWARES
+son un mecanismo que filtran peticiones HTTP que se realizan en nuestra aplicacion
+
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
+LARAVEL MIX
+proporciona una API fluida para definir los pasos de compilación de webpack para nuestra aplicación LARAVEL utilizando los procesadores de CSS y JAVASCRIPT
